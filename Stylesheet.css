@@ -1,0 +1,201 @@
+*{
+    margin: 0px;
+    padding: 0px;
+ 
+}
+/*Sub menu*/
+#SubMenu{
+    background-color: #500028;
+}
+
+#LogoMenu{
+    width:213;
+    height:83;
+}
+
+#ul1{
+    list-style-type: none;
+    margin-left: 240px;
+    height:85px;
+    display: flex;
+    align-items: center;
+}
+
+.li1{
+    float: left;
+    padding: 10px;
+    color: white;
+    font-weight:900;
+}
+
+.li1 a{
+    text-decoration: none;
+    color: white;
+}
+span{
+    float: right;
+}
+.dropbtn {
+    background-color: #f1f1f1;
+    font-size: 16px;
+    border: none;
+    width: 454px;
+    height: 30px;
+    text-align: left;
+    margin-top: 10px;
+    padding: 5px;
+
+  }
+  
+  .dropdown {
+    float: left;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    z-index: 1;
+    text-align: left;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+  .show {
+    display:block;
+}
+h1{
+    color: #500028;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.Labels{
+    float: left;
+    margin-right: 390px;
+}
+#InputText{
+    float: left;
+    margin-left: 24px;
+
+}
+
+.BuscarDatos{
+    text-align: left;
+    float: left;
+    padding-left: 10px;
+    margin-top: 10px;
+    width: 200px;
+    height: 24px;
+}
+#BuscarBotton{
+    height: 30px;
+    width: 113px;
+    background-color: #500028;
+    color: white;
+    border-radius: 5px;
+    float: left;
+    margin-left: 24px;
+    margin-top: 5px;
+    font-size: 16px;
+ 
+}
+hr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+/*Container*/
+
+#Container{
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+/*Dependencia*/
+#Depen{
+margin-top: 44px;
+}
+.Dependencia{
+    text-align: left;
+}
+#Subtitle{
+    color: #500028;
+    text-align: left;
+    margin-bottom: 10px;
+}
+table{
+    margin: 0 auto;
+}
+th{
+    background-color: #500028;
+    color: white;
+    width: 250px;
+}
+td{
+    text-align: left;
+}
+#Telefono{
+    width: 150px;
+}
+#Extension{
+    width: 70px;
+  
+}
+.Num_Ext{
+    text-align: center;
+}
+.Num_Tel{
+    text-align: center;
+}
+
+hr{
+    text-align: center;
+    width: 1000px;
+  
+}
+/*Footer*/
+footer{
+    background-color: #500028;
+}
+#foot{
+    margin-left: 250px;
+    margin-right: 250px;
+    color: white;
+}
+.Ayuntamiento_Tij1{
+    display: inline-block;
+    gap: 10px;
+}
+#FootTitle1{
+    font-size: 20px;
+}
+#NumAyunta{
+    font-size: 20px;
+}
+.Ayuntamiento_Tij2{
+    display: inline-block;
+}
+.Ayuntamiento_Tij2 a{
+    text-decoration: none;
+    color: white;
+}
+#FootTitle2{
+    font-size: 20px;
+}

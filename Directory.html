@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayuntamiento de Tijuana | Directorio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX=" crossorigin="anonymous" />
+
+    <link href="Stylesheet.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--SubMenu-->
+    <div id="SubMenu">
+        <ul id="ul1">
+            <li class="li1"><img src="Pic/Logo2.png" id="LogoMenu"></li>
+            <li class="li1"><a href="#">Inicio</a></li>
+            <li class="li1"><a href="#">Ayuntamiento</a></li>
+            <li class="li1"><a href="#">Dependencia</a></li>
+            <li class="li1"><a href="#">Delegacion</a></li>
+            <li class="li1"><a href="#">Paramunicipales</a></li>
+            <li class="li1"><a href="#">Transparencia</a></li>
+            <li class="li1"><a href="#">Mi cuenta</a></li>
+        </ul>
+    </div>
+ 
+<div id="Container">
+
+        <!--Buscar datos en directorio-->
+<div id="Directorio">
+<h1>Directorio</h1>
+
+<label class="Labels">Dependencia</label>
+<Label class="Labels">Nombre</Label>
+<br>
+
+<div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Dependencia <span>&#9660;</span></button>
+    <div id="myDropdown" class="dropdown-content">
+        <option>Sindicadura Procuradora</option>
+        <option>Regidores</option>
+        <option>Secretaria de Gobierno Municipal</option>
+        <option>Consejeria Juridica Municipal</option>
+        <option>Oficialia Mayor</option>
+        <option>Tesoreria Municipal</option>
+        <option>Secretaria de Movilidad Urbana Sustentable</option>
+        <option>Secretario de Desarrollo Territorial, Urbano y Ambiental Municipal</option>
+        <option>Secretaria del Bienestar</option>
+        <option>Tribunal Unitario Contencioso Administrativo</option>
+        <option>Secretaria de Desarrollo Economico</option>
+        <option>Secretario de Educacion</option>
+    </div>
+  </div>
+
+
+<input type="text" placeholder="Nombre" class="BuscarDatos"  id="InputText">
+
+<button id="BuscarBotton" Onclick="">Buscar</button>
+</div>
+
+    <!--Buscar Persona por Dependencia-->
+<div id="Depen">
+<h2 id="Subtitle">Dependencias</h2>
+<h3 class="Dependencia" onclick="displayInfo()">Presidencia Municipal</h3>
+
+<table>
+    <th>Puesto</th>
+    <th>Nombre</th>
+    <th>Correo Electronico</th>
+    <th id="Telefono">Numero Telefonico</th>
+    <th id="Extension">Extension</th>
+        <tr>
+            <td>Presidenta Municipal</td>
+            <td>Lic.Monserrat Caballero Ramirez</td>
+            <td class="Correo_E">mcRamirez@tijuana.gob.mx</td>
+            <td class="Num_Tel">973-7025-7023</td>
+            <td class="Num_Ext">7023</td>
+        </tr>
+        <tr>
+            <td>Secretario Particular de Presidencia</td>
+            <td>Lic.Juan Manuel Gastelum Rivera</td>
+            <td class="Correo_E">mcRamirez@tijuana.gob.mx</td>
+            <td class="Num_Tel">973-7025-7023</td>
+            <td class="Num_Ext">7024</td>
+        </tr>
+        <tr>
+            <td>Secretaria Tecnica</td>
+            <td>Lic.Vanessa Elva Fernandez Medina</td>
+            <td class="Correo_E">mcRamirez@tijuana.gob.mx</td>
+            <td class="Num_Tel">973-7025-7023</td>
+            <td class="Num_Ext">7004</td>
+        </tr>
+        <tr>
+            <td>Asistente</td>
+            <td>LAPYCP Grecia Garcia Gonzalez</td>
+            <td class="Correo_E">mcRamirez@tijuana.gob.mx</td>
+            <td class="Num_Tel">973-7025-7023</td>
+            <td class="Num_Ext">7024</td>
+        </tr>
+</table>
+
+<hr>
+<h3 class="Dependencia" Onclick="Show()">Sindicadura Procuradora</h3>
+<hr>
+
+<h3 class="Dependencia" Onclick="Show()">Regidores</h3>
+<hr>
+
+<h3 class="Dependencia" Onclick="Show()">Secretaria de Gobierno Municipal</h3>
+<hr>
+
+<h3 class="Dependencia" Onclick="Show()">Consejeria Juridica Municipal</h3>
+<hr>
+
+<h3 class="Dependencia" Onclick="Show()">Oficialia Mayor</h3>
+<hr>
+
+<h3 class="Dependencia" Onclick="Show()">Tesoreria Municipal</h3>
+<hr>
+
+<h3 class="Dependencia" Onclick="Show()">Secretaria de Movilidad Urbana Sustentable</h3>
+<hr>
+
+<h3 class="Dependencia" Onclick="Show()">Secretario de Desarrollo Territorial, Urbano yAmbiental Municipal</h3>
+<hr>
+
+<h3 class="Dependencia" Onclick="Show()">Secretaria del Bienestar</h3>
+<hr>
+
+<h3 class="Dependencia" Onclick="Show()">Tribunal Unitario Contencioso Administrativo</h3>
+<hr>
+
+<h3 class="Dependencia" Onclick="Show()">Secretaria de Desarrollo Economico</h3>
+<hr>
+
+<h3 class="Dependencia" Onclick="Show()">Secretario de Educacion</h3>
+<hr>
+</div>
+</div>
+    <!--footer-->
+
+<footer>
+<div id="foot">
+<div class="Ayuntamiento_Tij1">
+   <p id="FootTitle1">Ayuntamiento de Tijuana, B.C.</p> 
+   <p>Avenida Independencia 1350, Zona Urbana<br> Río, C. P. 22010
+    Tijuana, Baja California, México</p>
+    <p id="NumAyunta">(664) 973-7000</p>
+    </div>
+
+    <div class="Ayuntamiento_Tij2">
+        <p id="FootTitle2">Servicios de Emergencia</p>
+    <ul>
+        <li><a href="#">Civil</a></li>
+        <li><a href="#">Bomberos</a></li>
+        <li><a href="#">Secretaría de Seguridad y Protección Ciudadana</a></li>
+    </ul>
+
+    </div>
+</div>
+</footer>
+<script src="Directory.js">
+  
+</script>
+
+</body>
+</html>
